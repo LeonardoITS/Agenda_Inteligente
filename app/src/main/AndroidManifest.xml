@@ -9,12 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AgendaInteligente">
-        <activity android:name=".interfaz_Registrar_usuario"
+        <activity android:name=".interfaz_seguridad"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".interfaz_recuperar_password"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".interfaz_Registrar_usuario"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
